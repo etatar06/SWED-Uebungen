@@ -1,3 +1,5 @@
+package com.etatar.websitemonitoring.model;
+
 public class Website {
     private String url;
     private String lastChecked;

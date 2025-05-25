@@ -1,3 +1,7 @@
+package com.etatar.websitemonitoring.notification;
+
+import com.etatar.websitemonitoring.model.Subscription;
+
 import java.time.LocalDateTime;
 
 public class Notification {

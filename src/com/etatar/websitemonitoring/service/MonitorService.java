@@ -1,3 +1,9 @@
+package com.etatar.websitemonitoring.service;
+
+import com.etatar.websitemonitoring.model.Subscription;
+import com.etatar.websitemonitoring.model.User;
+import com.etatar.websitemonitoring.model.Website;
+import com.etatar.websitemonitoring.notification.Notification;
 import java.util.List;
 
 public class MonitorService {
@@ -13,7 +19,7 @@ public class MonitorService {
             for (Subscription subscription : user.getSubscriptions()) {
                 Website site = subscription.getWebsite();
                 if (site.hasChanged()) {
-                    String message = "Website " + site.getUrl() + " has been updated!";
+                    String message = "com.yourname.websitemonitoring.model.Website " + site.getUrl() + " has been updated!";
                     Notification notification = new Notification(message, subscription);
                     notification.deliver();
                 }

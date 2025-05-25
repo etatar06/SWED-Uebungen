@@ -1,3 +1,7 @@
+package com.etatar.websitemonitoring.model;
+import com.etatar.websitemonitoring.notification.NotificationChannel;
+import com.etatar.websitemonitoring.model.Subscription;
+
 import java.util.ArrayList;
 import java.util.List;
 

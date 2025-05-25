@@ -1,3 +1,13 @@
+package com.etatar.websitemonitoring.main;
+
+import com.etatar.websitemonitoring.model.User;
+import com.etatar.websitemonitoring.model.Website;
+import com.etatar.websitemonitoring.notification.EmailChannel;
+import com.etatar.websitemonitoring.notification.NotificationChannel;
+import com.etatar.websitemonitoring.notification.SMSChannel;
+import com.etatar.websitemonitoring.notification.PushNotificationChannel;
+import com.etatar.websitemonitoring.service.MonitorService;
+
 import java.util.ArrayList;
 import java.util.List;
 

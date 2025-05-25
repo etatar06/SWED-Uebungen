@@ -1,3 +1,8 @@
+package com.etatar.websitemonitoring.model;
+
+import com.etatar.websitemonitoring.notification.NotificationChannel;
+
+
 public class Subscription {
     private static int counter = 1;
 
